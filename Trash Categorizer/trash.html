@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/global.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link href="css/element.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    
+    
+	
+     
+
+  </head>
+  
+<body>
+
+<section id="header">
+	<nav class="navbar navbar-default navbar-fixed-top"; style = "background: black";>
+
+            <div class="navbar-header page-scroll";>
+                <a class="navbar-brand heading_tag" href="index.html">Enviro</a>
+				<a class="navbar-brand" href="gallery.html">Timer</a>
+				<a class="navbar-brand" href="links.html">Helpful Links</a>
+				<a class="navbar-brand" href="trash.html">Trash Categorizer</a>
+
+            </div>
+
+    </nav>
+</section>
+<br><br><br><br><br><br><br><br><br>
+<h2>What Piece of Trash Would you like Analyzed?</h2><br>
+<div id = "trashtype" class = "h2"></div><br>
+<input id = "trash" class = "h2" type = "text"></input>
+<a onclick = "categorizer(document.getElementById('trash').value)" type="Submit" class = "hr">Analyze</a>
+<script src="categorizer.js"></script>
